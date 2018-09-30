@@ -1,0 +1,23 @@
+#NOTES
+#visina(y koordinata) u se u pozitivnom broju racuna od gore prema dolje
+#drugi nacin za crtanje: GameDisplay.fill(red, rect=[200, 200, 50, 50])
+#prednost ovog crtanja je graficka akceleracija
+#broj pixela za koje se pomjeramo po sekundi je jednak umnosku varijable pomicanja i fpsa
+#append dodaje malu listu u postojecu listu s 2 varijable
+#EXTRA KOD:
+        # sluzi za detektiranje ako se tipka drzi ili otpusti
+        # if event.type == pygame.KEYUP:
+        #     if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
+        #         lead_x_change = 0
+
+	        #provjerava je li zmija pojela jabuku
+        # if lead_x >= randAppleX and lead_x <= randAppleX + apple_size:
+        #     if lead_y >= randAppleY and lead_y <= randAppleY + apple_size:
+        #         randAppleX = round(random.randrange(0, display_width-block_size)) #/10.0)*10.0
+        #         randAppleY = round(random.randrange(0, display_height-block_size)) #/10.0)*10.0
+        #         snakelength += 1
+	
+	    # screen_text = font.render(msg, True, color)
+    # #stavlja font na gamedisplay
+    # GameDisplay.blit(screen_text, [x, y])
+    # pygame.display.update()
